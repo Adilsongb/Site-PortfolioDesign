@@ -1,0 +1,190 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI", sans-serif;
+
+}
+
+/******************* CABEÇALHO **********************/
+
+#cabecalho {
+
+	margin: 20px;
+
+}
+
+#cabecalho ul li {
+
+	display: inline-block;
+
+}
+
+#cabecalho ul {
+
+	list-style: none;
+	text-align: center;
+
+}
+
+#cabecalho a {
+
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Segoe UI", sans-serif;
+	color: #C8C8C8;
+	font-size: 20px;
+	margin: 0 20px;
+
+}
+
+#cabecalho a:hover {
+	
+	color: #FE9393;
+
+}
+
+#cabecalho a#page-atual {
+
+	color: #FE9393;
+	border-bottom: 2px solid #FE9393;
+
+}
+
+/******************* INTRODUÇÃO DA HOME **********************/
+
+#intro {
+
+	margin: 0;
+	height: 850px;
+	background: url(../imagens/floral-1814372_1920.jpg) no-repeat;
+	background-size: 100%;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+#titulo {
+
+
+	background: #FFF;
+	border: 6px solid #FE9393;
+	width: 700px;
+	height: 400px;
+	color: #FE9393;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+#titulo div {
+
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+#titulo div h1 {
+
+	font-size: 70px;
+	letter-spacing: 20px;
+	margin-left: 10px;
+	margin-top: -20px;
+	text-align: center;
+
+}
+
+#titulo div h2 {
+
+	letter-spacing: 10px;
+
+}
+
+/******************* GALERIA | PORTFOLIO **********************/
+
+#area-galeria {
+
+	text-align: center;
+
+}
+
+#area-galeria h1 {
+
+	margin: 40px;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+	color: #FE9393;
+
+}
+
+#galeria {
+
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 1317px;
+
+}
+
+#galeria img {
+
+	margin: 0px 5px 10px 5px;
+
+}
+
+/******************* RODAPE **********************/
+
+footer {
+
+	background: #FE9393;
+	text-align: center;
+	padding-top: 50px;
+	color: #fff;
+	height: 80px;
+
+}
+
+
+/************************************************************/
+/************************************************************/
+/************************************************************/
+/*            CONFIGURAÇÕES DAS OUTRAS PAGES                */
+/************************************************************/
+
+/***** [ABOUT] CONTEUDO ******/
+
+#area-conteudo {
+
+	margin: 0;
+	
+}
+
+#space {
+
+	height: 400px;
+	background: url(../imagens/floral5.jpg) no-repeat;
+	background-size: 100%;
+
+}
+
+#caixa-conteudo {
+
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	margin: 0 auto;
+	margin-top: -140px;
+	padding: 20px 40px;
+	box-shadow: 10px;
+	background: #fff;
+	width: 1000px;
+	border-radius: 5px;
+	margin-bottom: 40px;
+	color: #4C4C4C;
+	font-size: 20px;
+	text-align: justify;
+
+
+}
